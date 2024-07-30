@@ -1,0 +1,56 @@
+.nav-main{
+    height: 80px;
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    font-family: sans-serif;
+    z-index: 1;
+
+}
+.menue span{
+    margin-top: 12px 50px;
+}
+.logo {
+    margin-right: 50px;
+    margin-left: 5px;
+}
+
+.logo img{
+    height: 55px;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+    
+}
+li{
+    margin: 20px 35px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
+    
+}
+.rightbtn{
+    background-color: burlywood;
+    height: 60px;
+    margin-top: 12px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 0.4s;
+    text-align:end;
+}
+li:hover{
+    color: burlywood;
+}
+.rightbtn:hover{
+    margin-top: 5px;
+    background-color: white;
+    color: burlywood;
+}

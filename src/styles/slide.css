@@ -1,0 +1,50 @@
+.carousel-inner::before{
+    position: absolute;
+    top: 0;
+    
+}
+.carousel-item {
+    /* background-image: url('https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/img-banner-02.jpg'); */
+    /* background-position: center;
+    background-size: cover;
+    display: block; */
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
+}
+.carousel-item img{
+    background-position: center;
+    height: 100vh;
+    filter:brightness(0.3)
+}
+p{color: white;
+    position: absolute;
+    
+    top: 200px;
+    text-align: left;
+    font-size: 80px;
+    line-height: 6rem;
+    letter-spacing: 0px;
+    
+    font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+}
+.bottombtn{
+    background-color: transparent;
+    padding: 15px 25px;
+    border: 1px solid rgb(198, 198, 197);
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    top:540px;
+    
+    /* bottom: 10%; */
+    transition: all;
+    transition-duration: 0.5s;
+}
+.bottombtn:hover{
+    background-color: burlywood;
+    top: 520px;
+
+}
