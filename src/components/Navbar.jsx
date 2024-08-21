@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/Navbar.css'
 import { FaPhoneAlt } from "react-icons/fa";
 
 const Navbar = () => {
+  const [colorChange, setColorchange] = useState(false);
+    const changeNavbarColor = () => {
+        if (window.scrollY >= 60) {
+            setColorchange(true);
+        } else {
+            setColorchange(false);
+        }
+    };
+    window.addEventListener("scroll", changeNavbarColor);
   return (
-    <div className='nav-main'>
+    <div className='nav-main' style={{ transition:'all',transitionDuration:"0.4s", backgroundColor:!colorChange?'transparent':'black'}}>
         <div className='logo'><img src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/Asset-1-3-2048x636.png" alt="" /></div>
         <div className='menue'>
         <ul>

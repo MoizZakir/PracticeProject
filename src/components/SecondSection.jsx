@@ -62,7 +62,7 @@ const SecondSection = () => {
             <img  style={{width:"600px"}} src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/img-egg-03.png" alt="" />
         </div>
         <div data-aos='fade-up'>
-            <img style={{width:"350px"}} src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/crispy-fried-meat-vegetables-removebg-preview.png" alt="" />
+            <img style={{width:"310.8px"}} src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/crispy-fried-meat-vegetables-removebg-preview.png" alt="" />
         </div>
 
     </div>

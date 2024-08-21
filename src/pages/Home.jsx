@@ -3,6 +3,7 @@ import ResponsiveAppBar from '../components/Navbar'
 import Slide from '../components/Slide'
 import SecondSection from '../components/SecondSection'
 import Thirdsection from '../components/Thirdsection'
+import Fourthsection from '../components/Fourthsection'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
     <Slide/>
     <SecondSection/>
     <Thirdsection/>
+    <Fourthsection/>
     
     </div>
   )
