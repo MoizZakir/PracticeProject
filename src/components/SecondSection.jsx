@@ -22,27 +22,27 @@ const SecondSection = () => {
 
         </div>
         <div className='category' >
-            <div className="single">
+            <div className="single" data-aos='fade-down'>
                 <img src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/pizza.png" alt="" />
                 <h4>Breakfast</h4>
                 <a href="">Veiw ></a>
             </div>
-            <div className="single">
+            <div className="single" data-aos='fade-down'>
                 <img src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/pizza.png" alt="" />
                 <h4>Breakfast</h4>
                 <a href="">Veiw ></a>
             </div>
-            <div className="single">
+            <div className="single" style={{backgroundColor:"burlywood" , border:'4px dotted white'}} data-aos='fade-up'>
+                <img src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/main-menu.png" alt="" />
+                <h4>Breakfast</h4>
+                <a href="">Veiw ></a>
+            </div>
+            <div className="single" data-aos='fade-down'>
                 <img src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/pizza.png" alt="" />
                 <h4>Breakfast</h4>
                 <a href="">Veiw ></a>
             </div>
-            <div className="single">
-                <img src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/pizza.png" alt="" />
-                <h4>Breakfast</h4>
-                <a href="">Veiw ></a>
-            </div>
-            <div className="single">
+            <div className="single" data-aos='fade-down'>
                 <img src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/pizza.png" alt="" />
                 <h4>Breakfast</h4>
                 <a href="">Veiw ></a>

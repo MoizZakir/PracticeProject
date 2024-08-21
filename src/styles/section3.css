@@ -1,0 +1,40 @@
+.section3{
+    padding-top: 100px;
+}
+.-sed3-head{
+    display: flex;
+    justify-content: center;
+}
+.-sed3-head div{
+    text-align: center;
+}
+.-sed3-head-img{
+    position: absolute;
+    right: 0;
+}
+.-sed3-body{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 50px;
+ 
+}
+.sed3-body-btn{
+    background-color: burlywood;
+    color: rgb(255, 255, 255);
+    padding: 15px 35px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    transition: all;
+    transition-duration: 0.4s;
+}
+.sed3-body-btn:hover{
+    background-color: black;
+    margin-top: 14px;
+}
+.-sed3-body p{
+line-height: 1.7;
+}
