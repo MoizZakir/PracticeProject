@@ -4,6 +4,7 @@ import Slide from '../components/Slide'
 import SecondSection from '../components/SecondSection'
 import Thirdsection from '../components/Thirdsection'
 import Fourthsection from '../components/Fourthsection'
+import Fifthsection from '../components/Fifthsection'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
     <SecondSection/>
     <Thirdsection/>
     <Fourthsection/>
+    <Fifthsection/>
     
     </div>
   )

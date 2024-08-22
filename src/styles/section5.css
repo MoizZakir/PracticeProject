@@ -1,0 +1,33 @@
+.section5{
+    padding-top: 100px;
+}
+.section5-head{
+    text-align: center;
+}
+.section5-body{
+    padding: 70px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
+    width: 100%;
+    
+
+}
+.section5-body-img{
+   
+    
+}
+.section5-body-img img{
+      width: 370px;
+    height: 270px;
+    /* margin: 5px 10px; */
+    object-fit: cover;
+    transition: all;
+    transition-duration:0.5s;
+
+}
+.section5-body-img img:hover{
+    filter: brightness(0.5);
+    cursor: pointer;
+}
