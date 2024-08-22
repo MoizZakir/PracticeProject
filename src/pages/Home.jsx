@@ -5,15 +5,18 @@ import SecondSection from '../components/SecondSection'
 import Thirdsection from '../components/Thirdsection'
 import Fourthsection from '../components/Fourthsection'
 import Fifthsection from '../components/Fifthsection'
+import Sixthsection from '../components/Sixthsection'
 
 const Home = () => {
   return (
-    <div><ResponsiveAppBar/>
+    <div>
+      <ResponsiveAppBar/>
     <Slide/>
     <SecondSection/>
     <Thirdsection/>
     <Fourthsection/>
     <Fifthsection/>
+    <Sixthsection/>
     
     </div>
   )
