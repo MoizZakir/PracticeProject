@@ -6,6 +6,7 @@ import Thirdsection from '../components/Thirdsection'
 import Fourthsection from '../components/Fourthsection'
 import Fifthsection from '../components/Fifthsection'
 import Sixthsection from '../components/Sixthsection'
+import Seventhsection from '../components/Seventhsection'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
     <Fourthsection/>
     <Fifthsection/>
     <Sixthsection/>
+    <Seventhsection/>
     
     </div>
   )
