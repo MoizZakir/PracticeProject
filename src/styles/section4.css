@@ -57,3 +57,10 @@
 .section4-body-btn:hover{
     background-color: black;
 }
+
+@media (max-width:900px){
+    .section4-body{
+        justify-content: center;
+    }
+
+}

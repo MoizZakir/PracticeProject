@@ -54,3 +54,12 @@ li:hover{
     background-color: white;
     color: burlywood;
 }
+@media (max-width:980px) {
+    .rightbtn{
+        display: none;
+    }
+.menue{
+    display: none;
+}
+    
+}
