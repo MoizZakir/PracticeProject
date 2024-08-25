@@ -46,7 +46,7 @@ line-height: 1.7;
 }
 @media (max-width:915px) {
     .-sed3-body-img img{
-        width: 400px;
+        width: 100%;
     
     }
     
