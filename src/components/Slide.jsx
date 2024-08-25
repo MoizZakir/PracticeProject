@@ -12,7 +12,7 @@ const Slide = () => {
     <div>
         <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" data-interval='2000' data-pause={false}>
   <div className="carousel-inner">
-    <div data-aos='fade-up'><p className='para' >FINE COUNTRY DINING IN <br/>THE HEART OF THE VILLAGE <br/> OF OSGOODE!</p>
+    <div data-aos='fade-up'><p className='para' >FINE COUNTRY DINING IN THE HEART OF THE VILLAGE  OF OSGOODE!</p>
     
     <div  data-aos-once={true} className='bottombtn' style={{position:'absolute'}}>
       EXPLORE OUR MENUE >

@@ -11,6 +11,7 @@
 .-sed3-head-img{
     position: absolute;
     right: 0;
+    
 }
 .-sed3-body{
     display: flex;
@@ -19,6 +20,10 @@
     gap: 15px;
     padding-top: 50px;
  
+}
+.-sed3-body-img img{
+    width: 500px;
+
 }
 .sed3-body-btn{
     background-color: burlywood;
@@ -38,4 +43,11 @@
 }
 .-sed3-body p{
 line-height: 1.7;
+}
+@media (max-width:915px) {
+    .-sed3-body-img img{
+        width: 400px;
+    
+    }
+    
 }

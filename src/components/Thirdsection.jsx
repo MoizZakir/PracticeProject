@@ -15,7 +15,7 @@ const Thirdsection = () => {
 
         </div>
         <div className='-sed3-body'>
-            <div style={{}}><img width={500} src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/waffle.jpg" alt="" /></div>
+            <div className='-sed3-body-img' style={{}}><img  src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/waffle.jpg" alt="" /></div>
             <div  style={{width:400,marginTop:"30px"}}>
                 <p >At the Red Dot, we cook delicious meals that summon memories of home.
                      The inspiration for our menu comes from family suppers and our favourite comfort
