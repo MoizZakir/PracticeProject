@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import '../styles/Navbar.css'
 import { FaPhoneAlt } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const [colorChange, setColorchange] = useState(false);
+  const navigate=useNavigate()
     const changeNavbarColor = () => {
         if (window.scrollY >= 60) {
             setColorchange(true);
@@ -17,11 +19,11 @@ const Navbar = () => {
         <div className='logo'><img src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/Asset-1-3-2048x636.png" alt="" /></div>
         <div className='menue'>
         <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>HOURS</li>
-            <li>MENU</li>
-            <li>CONTACT</li>
+            <li onClick={()=>navigate('/')} >HOME</li>
+            <li onClick={()=>navigate('/about')}>ABOUT</li>
+            <li disabled={true}  style={{}}>HOURS</li>
+            <li style={{}} >MENU</li>
+            <li style={{}}>CONTACT</li>
         </ul>
         
         </div>
