@@ -1,17 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/section4.css'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Fourthsection = () => {
+    useEffect(()=>{
+        Aos.init({duration:'1000',delay:"0" })
+    
+      },[])
   return (
     <div className='section4'>
-        <div className="section4-head">
+        <div className="section4-head"  data-aos='fade-up'>
             
             <h1 >TRY OUR SPECIAL OFFERS</h1>
             <p>Best food for you & your family</p>
         
         </div>
         <div className="section4-body">
-            <div className='section4-body-item'>
+            <div  data-aos='fade-up'  className='section4-body-item'>
                 <div>
                     <h3>BRUSCHETTA</h3>
                     <p>Good Food, Good Beer, Good Times</p>
@@ -19,7 +24,7 @@ const Fourthsection = () => {
                 <h1 className='section4-body-item-price'>$12.9</h1>
 
             </div>
-            <div className='section4-body-item'>
+            <div  data-aos='fade-up'  className='section4-body-item'>
                 <div>
                     <h3>BRUSCHETTA</h3>
                     <p>Good Food, Good Beer, Good Times</p>
@@ -27,7 +32,7 @@ const Fourthsection = () => {
                 <h1 className='section4-body-item-price'>$12.9</h1>
 
             </div>
-            <div className='section4-body-item'>
+            <div  data-aos='fade-up'  className='section4-body-item'>
                 <div>
                     <h3>BRUSCHETTA</h3>
                     <p>Good Food, Good Beer, Good Times</p>
@@ -35,7 +40,7 @@ const Fourthsection = () => {
                 <h1 className='section4-body-item-price'>$12.9</h1>
 
             </div>
-            <div className='section4-body-item'>
+            <div  data-aos='fade-up'  className='section4-body-item'>
                 <div>
                     <h3>BRUSCHETTA</h3>
                     <p>Good Food, Good Beer, Good Times</p>
@@ -43,7 +48,7 @@ const Fourthsection = () => {
                 <h1 className='section4-body-item-price'>$12.9</h1>
 
             </div>
-            <div className='section4-body-item'>
+            <div  data-aos='fade-up'  className='section4-body-item'>
                 <div>
                     <h3>BRUSCHETTA</h3>
                     <p>Good Food, Good Beer, Good Times</p>
@@ -51,7 +56,7 @@ const Fourthsection = () => {
                 <h1 className='section4-body-item-price'>$12.9</h1>
 
             </div>
-            <div className='section4-body-item'>
+            <div  data-aos='fade-up'  className='section4-body-item'>
                 <div>
                     <h3>BRUSCHETTA</h3>
                     <p>Good Food, Good Beer, Good Times</p>
@@ -59,7 +64,7 @@ const Fourthsection = () => {
                 <h1 className='section4-body-item-price'>$12.9</h1>
 
             </div>
-            <div className='section4-body-item'>
+            <div   data-aos='fade-up' className='section4-body-item'>
                 <div>
                     <h3>BRUSCHETTA</h3>
                     <p>Good Food, Good Beer, Good Times</p>
@@ -67,7 +72,7 @@ const Fourthsection = () => {
                 <h1 className='section4-body-item-price'>$12.9</h1>
 
             </div>
-            <div className='section4-body-item'>
+            <div  data-aos='fade-up'  className='section4-body-item'>
                 <div>
                     <h3>BRUSCHETTA</h3>
                     <p>Good Food, Good Beer, Good Times</p>

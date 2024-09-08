@@ -1,22 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/section3.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Thirdsection = () => {
+    useEffect(()=>{
+        Aos.init({duration:'1000',delay:"0" })
+    
+      },[])
   return (
     <div className='section3'>
-        <div className='-sed3-head'>
+        <div className='-sed3-head'  data-aos='fade-up'>
             <div>
                 <h2>WHY CHOOSE US </h2>
                 <p>Best foods for you & family</p>
             </div>
-            <div className='-sed3-head-img'>
+            <div className='-sed3-head-img' >
                 <img src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/img-best-01.png" alt="" />
             </div>
 
         </div>
         <div className='-sed3-body'>
-            <div className='-sed3-body-img' style={{}}><img  src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/waffle.jpg" alt="" /></div>
-            <div  style={{width:400,marginTop:"30px"}}>
+            <div data-aos='fade-up' className='-sed3-body-img' style={{}}><img  src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/waffle.jpg" alt="" /></div>
+            <div  data-aos='fade-up'  style={{width:400,marginTop:"30px"}}>
                 <p >At the Red Dot, we cook delicious meals that summon memories of home.
                      The inspiration for our menu comes from family suppers and our favourite comfort
                       foods. We combine these familiar foods with new flavours to create distinctive

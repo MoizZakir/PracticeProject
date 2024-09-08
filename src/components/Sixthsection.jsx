@@ -1,15 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/section6.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Sixthsection = () => {
+    useEffect(()=>{
+
+        Aos.init({duration:'1000',delay:"0" })
+    
+      },[])
   return (
     <div className='section6'>
-        <div className="section6-head">
+        <div className="section6-head" data-aos='fade-up'>
             <h1>BOOKING YOUR FAVOUROIT TABLE</h1>
             <p>Best food for you & family</p>
         </div>
-        <div className="section6-body">
-            <div className="section6-body-img">
+        <div className="section6-body" >
+            <div className="section6-body-img" data-aos='zoom-in'>
                 <img src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/img-booking-01.jpg" alt="" />
 
             </div>

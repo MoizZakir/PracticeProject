@@ -7,3 +7,61 @@
 .about-section2-head h1{
     color: burlywood;
 }
+.about-section2-body{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-section2-body-left{
+    padding: 50px 60px;
+    width: 45vw;
+}
+.about-section2-body-left p{
+    padding-top: 15px;
+    line-height: 30px;
+}
+.about-section2-body-left button{
+    padding: 18px 25px  ;
+    border: none;
+    background-color: burlywood;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.about-section2-body-right{
+    background-color: rgb(253, 244, 232);
+    padding-bottom: 100px;
+    width: 53vw;
+    display: flex;
+}
+
+.about-section2-body-right img{
+    width: 50%;
+    position: relative;
+    left: -30px;
+    top:60px;
+     object-fit: cover;
+    
+}
+.about-section2-body-right h4{
+    padding-right: 30px;
+    font-size: 22px;
+    padding-top: 70px;
+}
+.about-section2-body-right-satisfy-customer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -60px;
+    top:40px;
+    align-items: center;
+    
+    gap:12px;
+    width: 330px;
+    padding: 10px 20px;
+    background-color: white;
+}
+.about-section2-body-right-satisfy-customer p{
+    margin-top: 0px;
+}

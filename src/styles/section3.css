@@ -5,6 +5,9 @@
     display: flex;
     justify-content: center;
 }
+.-sed3-head h2{
+    color: burlywood;
+}
 .-sed3-head div{
     text-align: center;
 }

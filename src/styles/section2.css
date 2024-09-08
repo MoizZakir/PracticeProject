@@ -8,6 +8,10 @@
     /* border: 1px solid black; */
     padding-top: 100px;
     text-align: center;
+    
+}
+.heads h1{
+    color: burlywood;
 }
 .image{
     position: absolute;

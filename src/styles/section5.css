@@ -4,6 +4,9 @@
 .section5-head{
     text-align: center;
 }
+.section5-head h1{
+    color: burlywood;
+}
 .section5-body{
     padding: 70px 50px;
     display: flex;

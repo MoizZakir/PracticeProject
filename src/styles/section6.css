@@ -4,6 +4,9 @@
 .section6-head{
     text-align: center;
 }
+.section6-head h1{
+    color: burlywood;
+}
 .section6-body{
     padding-top: 50px;
     display: flex;
