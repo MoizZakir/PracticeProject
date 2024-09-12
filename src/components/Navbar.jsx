@@ -21,7 +21,7 @@ const Navbar = () => {
         <ul>
             <li onClick={()=>navigate('/')} >HOME</li>
             <li onClick={()=>navigate('/about')}>ABOUT</li>
-            <li disabled={true}  style={{}}>HOURS</li>
+            <li onClick={()=>navigate('/hours')} style={{}}>HOURS</li>
             <li style={{}} >MENU</li>
             <li style={{}}>CONTACT</li>
         </ul>

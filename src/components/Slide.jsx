@@ -8,6 +8,7 @@ const Slide = () => {
     Aos.init({duration:'1000',delay:"0" })
 
   },[])
+  setTimeout(()=>{console.log("moiz")},2000)
   return (
     <div>
         <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" data-interval='2000' data-pause={false}>

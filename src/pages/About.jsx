@@ -10,7 +10,7 @@ import Footer from '../components/Footer'
 const About = () => {
   return (
     <div>
-      <AboutTop/>
+      <AboutTop name='About'/>
       <Aboutsection2/>
       <Aboutsection3/>
       <Aboutsection4/>

@@ -1,0 +1,86 @@
+.Hourssection2{
+    padding-top: 100px;
+}
+.Hourssection2-head{
+    padding: 50px 0;
+    text-align: center;
+}
+.Hourssection2-head h1{
+    color: burlywood;
+}
+.Hourssection2-body{
+    width: 100%;
+}
+
+.Hourssection2-body-sec1{
+    /* border: 1px solid red; */
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    min-height: max-content;
+}
+.img1{
+    /* width: 32%; */
+    flex: 1.5;
+    transform: translateY(100px);
+    cursor: pointer;
+    height: 87vh;
+    object-fit: cover;
+    transition: transform;
+    transition-duration: 0.8s;
+    
+}
+.img2{
+    flex: 1.5;
+    object-fit: cover;
+
+    
+    height: 87vh;
+   
+    transform: translateY(50px);
+    cursor: pointer;
+    transition: transform;
+    transition-duration: 0.8s;
+}
+.img3{
+    flex: 1.5;
+    
+    height: 87vh;
+    object-fit: cover;
+   
+    
+    transform: translateY(0px);
+    cursor: pointer;
+    transition: transform;
+    transition-duration: 0.8s;
+}
+.img1:hover{
+    transform: translateY(80px);
+}
+.img2:hover{
+    transform: translateY(30px);
+}
+.img3:hover{
+    transform: translateY(-20px);
+}
+.Hourssection2-body-sec2{
+    padding-top: 150px;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+.Hourssection2-body-sec2 img{
+    width: 258px;
+    flex: 1;
+    height: 50vh;
+    object-fit: cover;
+    
+    cursor: pointer;
+    transition: filter;
+
+    transition-duration: 0.5s;
+}
+.Hourssection2-body-sec2 img:hover{
+    filter: brightness(0.4);
+}

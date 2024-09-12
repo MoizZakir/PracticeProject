@@ -14,7 +14,8 @@ const Home = () => {
   return (
     <div>
       <ResponsiveAppBar/>
-    <Slide/>
+      <Slide/>
+    
     <SecondSection/>
     <Thirdsection/>
     <Fourthsection/>

@@ -56,12 +56,12 @@ const SecondSection = () => {
     </div>
     <div className='bottomsImages'>
         <div data-aos='fade-up'>
-            <img className='img1'  src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/img-egg-02.png" alt="" />
+            <img className='img11'  src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/img-egg-02.png" alt="" />
         </div>
         <div style={{borderRadius:'50%',  border:"20px solid white", marginTop:"-150px"}} data-aos='zoom-in'>
-            <img  className='img2' src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/img-egg-03.png" alt="" />
+            <img  className='img21' src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/img-egg-03.png" alt="" />
         </div>
-        <div data-aos='fade-up'><img  className='img3' src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/crispy-fried-meat-vegetables-removebg-preview.png" alt="" />
+        <div data-aos='fade-up'><img  className='img31' src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/crispy-fried-meat-vegetables-removebg-preview.png" alt="" />
         </div>
 
     </div>

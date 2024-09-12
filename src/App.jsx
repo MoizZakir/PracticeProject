@@ -12,6 +12,7 @@ import {
   Link,
   
 } from  "react-router-dom";
+import Hours from './pages/Hours'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
     <Route exact path="/" element={<Home/>} />
 
 <Route path="/about" element={<About/>} />
+<Route path="/hours" element={<Hours/>} />
     
       
       </Routes>
