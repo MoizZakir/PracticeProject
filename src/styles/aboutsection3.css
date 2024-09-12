@@ -1,3 +1,51 @@
 .about-section3{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 50vh;
     
+ 
+    
+}
+.about-section3-item{
+    margin-top: 55px;
+    /* margin: 55px 5px; */
+    color: white;
+    text-align: center;
+    font-size: 15px!important;
+    align-items: center;
+}
+.about-section3-item h1{
+    font-size: 25px;
+}
+.about-section3-item h2{
+    font-size: 24px;
+    margin: 10px 0;
+
+}
+
+.about-section3::before{
+    background-image: url('https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/bg-section-counter-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    content: '';
+    width: 100%;
+    z-index: -1;
+    filter: brightness(0.1);
+    min-height:50vh ;
+    
+    position: absolute;
+}
+@media (max-width:840px){
+    .about-section3::before{
+        min-height:75vh ;
+    }
+}
+@media (max-width:410px){
+    .about-section3::before{
+        min-height:100vh ;
+    }
 }
