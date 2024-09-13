@@ -1,11 +1,13 @@
 .section4{
     background-color: #f9f6f0;
-    min-height: 184vh;
+    min-height: fit-content;
     margin-top: 100px;
     padding-top: 150px;
     background-image: url('https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/img-menu-01.jpg');
     background-repeat: no-repeat;
     background-position: right top;
+    
+    padding-bottom: 30px;
     
    
    
@@ -26,20 +28,32 @@
     padding-top: 50px;
     display: flex;
     flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
     
 }
+
 
 .section4-body-item{
     display: flex;
     justify-content: space-around;
     min-width: max-content;
-    width: 45%;
+    width: 48%;
     background-color: white;
     border-radius: 8px;
     border: none;
     align-items: center;
     height: 130px;
-    margin: 20px 30px;
+    margin: 20px 10px;
+}
+@media(max-width:1110px){
+    .section4-body-item{
+        width: 90%;
+        margin: 20px 7% ;
+    }
+.section4{
+    background-size: cover;
+}
 }
 .section4-body-btn{
     padding: 17px 30px;

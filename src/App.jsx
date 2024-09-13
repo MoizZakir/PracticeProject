@@ -13,6 +13,7 @@ import {
   
 } from  "react-router-dom";
 import Hours from './pages/Hours'
+import Menu from './pages/Menu'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 
 <Route path="/about" element={<About/>} />
 <Route path="/hours" element={<Hours/>} />
+<Route path="/menu" element={<Menu/>} />
     
       
       </Routes>
