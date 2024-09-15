@@ -13,7 +13,7 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
     <div>
-      <ResponsiveAppBar/>
+      <ResponsiveAppBar route='home'/>
       <Slide/>
     
     <SecondSection/>

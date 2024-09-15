@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 const Menu = () => {
   return (
     <div>
-        <AboutTop name='Our Menu'/>
+        <AboutTop name='Our Menu' route='menu'/>
         <Fourthsection/>
         <Aboutsection3/>
         <Fifthsection/>

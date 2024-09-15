@@ -10,14 +10,18 @@ import {
   
   Route,
   Link,
+  useParams,
   
 } from  "react-router-dom";
 import Hours from './pages/Hours'
 import Menu from './pages/Menu'
+import Contact from './pages/Contact'
 
 
 function App() {
   const [count, setCount] = useState(0)
+  const name=useParams();
+  console.log(name)
 
   return (
     <BrowserRouter>
@@ -27,6 +31,7 @@ function App() {
 <Route path="/about" element={<About/>} />
 <Route path="/hours" element={<Hours/>} />
 <Route path="/menu" element={<Menu/>} />
+<Route path="/contact" element={<Contact/>} />
     
       
       </Routes>

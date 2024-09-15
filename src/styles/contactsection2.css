@@ -1,0 +1,9 @@
+.contactsection2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+.contactsection2 iframe{
+    width: 95%;
+}

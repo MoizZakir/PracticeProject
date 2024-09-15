@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 const Hours = () => {
   return (
     <div>
-        <AboutTop name='Reservation'/>
+        <AboutTop name='Reservation' route='hours'/>
         <Hourssection2/>
         <Multislides/>
         <Footer/>
