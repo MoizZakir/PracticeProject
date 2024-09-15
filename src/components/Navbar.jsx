@@ -2,9 +2,14 @@ import React, { useState } from 'react'
 import '../styles/Navbar.css'
 import { FaPhoneAlt } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
+import { TbMenu2 } from "react-icons/tb";
 
 const Navbar = ({route}) => {
   const [colorChange, setColorchange] = useState(false);
+  const [visible,setVisible]=useState(false)
+  const {innerWidth}=window
+  console.log(innerWidth)
+
   const navigate=useNavigate()
     const changeNavbarColor = () => {
         if (window.scrollY >= 60) {
@@ -29,16 +34,17 @@ const Navbar = ({route}) => {
         </div>
         <div className='rightbtn'><FaPhoneAlt style={{marginRight:"9px"}} />+613-826-0552</div>
         <div className="menubtn">
-          <button>+</button>
+          <button onClick={()=>setVisible(!visible)}><TbMenu2 /></button>
 
         </div>
         
-        <ul className='menulist'>
-            <li onClick={()=>navigate('/')} style={{color:(route=="home")?'burlywood':'purple'}} >HOME</li> <span>X</span>
-            <li onClick={()=>navigate('/about')}style={{color:(route=="about")?'burlywood':'purple'}} >ABOUT</li>
-            <li onClick={()=>navigate('/hours')} style={{color:(route=="hours")?'burlywood':'purple'}} >HOURS</li>
-            <li onClick={()=>navigate('/menu')} style={{color:(route=="menu")?'burlywood':'purple'}} >MENU</li>
-            <li  onClick={()=>navigate('/contact')} style={{color:(route=="contact")?'burlywood':'purple'}} >CONTACT</li>
+        <ul className='menulist' style={{display:visible?'flex':'none'}}>
+            <li onClick={()=>navigate('/')} style={{color:(route=="home")?'burlywood':'black'}} >HOME</li> <span onClick={()=>setVisible(!visible)}>X</span>
+            
+            <li onClick={()=>navigate('/about')}style={{color:(route=="about")?'burlywood':'black'}} >ABOUT</li>
+            <li onClick={()=>navigate('/hours')} style={{color:(route=="hours")?'burlywood':'black'}} >HOURS</li>
+            <li onClick={()=>navigate('/menu')} style={{color:(route=="menu")?'burlywood':'black'}} >MENU</li>
+            <li  onClick={()=>navigate('/contact')} style={{color:(route=="contact")?'burlywood':'black'}} >CONTACT</li>
         </ul>
         
 
