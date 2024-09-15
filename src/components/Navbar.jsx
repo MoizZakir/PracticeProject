@@ -18,7 +18,7 @@ const Navbar = ({route}) => {
     <div className='nav-main' style={{ transition:'all',transitionDuration:"0.4s", backgroundColor:!colorChange?'transparent':'black'}}>
         <div className='logo'><img src="https://thewebions.com/reddotcafe/wp-content/uploads/2024/01/Asset-1-3-2048x636.png" alt="" /></div>
         <div className='menue'>
-        <ul>
+        <ul className='unlist'>
             <li onClick={()=>navigate('/')} style={{color:(route=="home")?'burlywood':''}} >HOME</li>
             <li onClick={()=>navigate('/about')}style={{color:(route=="about")?'burlywood':''}} >ABOUT</li>
             <li onClick={()=>navigate('/hours')} style={{color:(route=="hours")?'burlywood':''}} >HOURS</li>
@@ -28,6 +28,19 @@ const Navbar = ({route}) => {
         
         </div>
         <div className='rightbtn'><FaPhoneAlt style={{marginRight:"9px"}} />+613-826-0552</div>
+        <div className="menubtn">
+          <button>+</button>
+
+        </div>
+        
+        <ul className='menulist'>
+            <li onClick={()=>navigate('/')} style={{color:(route=="home")?'burlywood':'purple'}} >HOME</li> <span>X</span>
+            <li onClick={()=>navigate('/about')}style={{color:(route=="about")?'burlywood':'purple'}} >ABOUT</li>
+            <li onClick={()=>navigate('/hours')} style={{color:(route=="hours")?'burlywood':'purple'}} >HOURS</li>
+            <li onClick={()=>navigate('/menu')} style={{color:(route=="menu")?'burlywood':'purple'}} >MENU</li>
+            <li  onClick={()=>navigate('/contact')} style={{color:(route=="contact")?'burlywood':'purple'}} >CONTACT</li>
+        </ul>
+        
 
     </div>
   )

@@ -5,9 +5,10 @@
     display: flex;
     justify-content: space-around;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     font-family: sans-serif;
     z-index: 1;
+    
 
 }
 .menue span{
@@ -16,19 +17,22 @@
 .logo {
     margin-right: 50px;
     margin-left: 5px;
+    
+    
 }
 
 .logo img{
     height: 55px;
     margin-top: 10px;
 }
-ul{
+.unlist{
     display: flex;
     list-style-type: none;
     margin-top: 10px;
     
+    
 }
-li{
+.unlist li{
     margin: 20px 35px;
     cursor: pointer;
     transition: all;
@@ -46,7 +50,7 @@ li{
     transition-duration: 0.4s;
     text-align:end;
 }
-li:hover{
+.unlist li:hover{
     color: burlywood;
 }
 .rightbtn:hover{
@@ -54,12 +58,54 @@ li:hover{
     background-color: white;
     color: burlywood;
 }
+.menulist{
+    position: absolute;
+    top: 79px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+    font-weight: 700;
+    /* text-shadow: 4px 0px 9px rgba(255,255,255,0.6); */
+    gap:30px;
+    right: 0;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(5px);
+
+    backdrop-filter: blur(5px);
+    
+}
+.menulist span{
+    position: absolute;
+    right: 7%;
+    font-weight: bolder;
+    color: red;
+}
+
+.menubtn{
+    width: 50px;
+    
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.menubtn button{
+    width: 100%;
+    height: 30px;
+}
 @media (max-width:980px) {
     .rightbtn{
         display: none;
     }
 .menue{
     display: none;
+}
+.nav-main{
+    justify-content: space-between;
+    
 }
     
 }
